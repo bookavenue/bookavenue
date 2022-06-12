@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Book Your Venue without paperwork" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Book a Venue | pk</title>
+
+    <link
+      rel="stylesheet"
+      href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.min.css+font-awesome.min.css+elegant-icons.css+flaticon.css+owl.carousel.min.css+nice-select.css+jquery-ui.min.css+magnific-popup.css+slicknav.min.css+style.css.pagespeed.cc.mNYjtmr76_.css"
+      type="text/css"
+    />
+    <script nonce="9ab4a91d-823d-4003-adc2-55d0f9eed3e1">
+      (function (w, d) {
+        !(function (a, e, t, r) {
+          (a.zarazData = a.zarazData || {}),
+            (a.zarazData.executed = []),
+            (a.zaraz = {
+              deferred: [],
+            }),
+            (a.zaraz.q = []),
+            (a.zaraz._f = function (e) {
+              return function () {
+                var t = Array.prototype.slice.call(arguments);
+                a.zaraz.q.push({
+                  m: e,
+                  a: t,
+                });
+              };
+            });
+          for (const e of ["track", "set", "ecommerce", "debug"])
+            a.zaraz[e] = a.zaraz._f(e);
+          a.addEventListener("DOMContentLoaded", () => {
+            var t = e.getElementsByTagName(r)[0],
+              z = e.createElement(r),
+              n = e.getElementsByTagName("title")[0];
+            for (
+              n && (a.zarazData.t = e.getElementsByTagName("title")[0].text),
+                a.zarazData.x = Math.random(),
+                a.zarazData.w = a.screen.width,
+                a.zarazData.h = a.screen.height,
+                a.zarazData.j = a.innerHeight,
+                a.zarazData.e = a.innerWidth,
+                a.zarazData.l = a.location.href,
+                a.zarazData.r = e.referrer,
+                a.zarazData.k = a.screen.colorDepth,
+                a.zarazData.n = e.characterSet,
+                a.zarazData.o = new Date().getTimezoneOffset(),
+                a.zarazData.q = [];
+              a.zaraz.q.length;
+
+            ) {
+              const e = a.zaraz.q.shift();
+              a.zarazData.q.push(e);
+            }
+            z.defer = !0;
+            for (const e of [localStorage, sessionStorage])
+              Object.keys(e)
+                .filter((a) => a.startsWith("_zaraz_"))
+                .forEach((t) => {
+                  try {
+                    a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t));
+                  } catch {
+                    a.zarazData["z_" + t.slice(7)] = e.getItem(t);
+                  }
+                });
+            (z.referrerPolicy = "origin"),
+              (z.src =
+                "/cdn-cgi/zaraz/s.js?z=" +
+                btoa(encodeURIComponent(JSON.stringify(a.zarazData)))),
+              t.parentNode.insertBefore(z, t);
+          });
+        })(w, d, 0, "script");
+      })(window, document);
+    </script>
+  </head>
+  <body>
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="canvas-open">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="offcanvas-menu-wrapper">
+      <div class="canvas-close">
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="header-configure-area">
+        <a href="#" onclick="  alert('15% Discount available!');" class="bk-btn"
+          >Get Discount</a
+        >
+      </div>
+      <nav class="mainmenu mobile-menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./rooms.html">Venues</a></li>
+          <li><a href="./about-us.html">About Us</a></li>
+          <!-- <li>
+            <a href="./room-details.html">Venue Details</a>
+          </li> -->
+          <li class="active"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-menu-wrap"></div>
+      <div class="top-social">
+        <a
+          href="https://www.facebook.com/bookavenuepk-111106204963196/"
+          target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/bookavenue.pk/" target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+      <ul class="top-widget">
+        <li><i class="fa fa-phone"></i>0336-3244500</li>
+        <li>
+          <i class="fa fa-envelope"></i>
+          <a
+            href="/cdn-cgi/l/email-protection"
+            class="__cf_email__"
+            data-cfemail="cda4a3aba2e3aea2a1a2bfa1a4af8daaa0aca4a1e3aea2a0"
+            >Bookavenuepk@gmail.com</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <header class="header-section">
+      <div class="top-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="tn-left">
+                <li><i class="fa fa-phone"></i>0336-3244500</li>
+                <li>
+                  <i class="fa fa-envelope"></i>
+                  <a
+                    href="/cdn-cgi/l/email-protection"
+                    class="__cf_email__"
+                    data-cfemail="d7beb9b1b8f9b4b8bbb8a5bbbeb597b0bab6bebbf9b4b8ba"
+                    >Bookavenuepk@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="tn-right">
+                <div class="top-social">
+                  <a
+                    href="https://www.facebook.com/bookavenuepk-111106204963196/"
+                    target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/bookavenue.pk/"
+                    target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </div>
+                <a
+                  href="#"
+                  class="bk-btn"
+                  onclick="alert('15% Discount available! | Use Promo code BAV20');"
+                  >Get Discount</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="logo">
+                <a href="./index.html">
+                  <img
+                    src="./img/logo.png"
+                    alt=""
+                    style="
+                      padding: 0;
+                      margin: 0%;
+                      height: 4rem;
+                      position: absolute;
+                      top: 17%;
+                    "
+                    data-pagespeed-url-hash="4265918287"
+                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-10">
+              <div class="nav-menu">
+                <nav class="mainmenu">
+                  <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./rooms.html">Venues</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <!-- <li>
+                      <a href="./room-details.html">Venue Details</a>
+                    </li> -->
+                    <li class="active"><a href="./contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="contact-section spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="contact-text">
+              <h2>Contact Info</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="c-o">Address:</td>
+                    <td>856 Cordia Extension Apt. 356, Lake, US</td>
+                  </tr>
+                  <tr>
+                    <td class="c-o">Phone:</td>
+                    <td>(12) 345 67890</td>
+                  </tr>
+                  <tr>
+                    <td class="c-o">Email:</td>
+                    <td>
+                      <a
+                        href="/cdn-cgi/l/email-protection"
+                        class="__cf_email__"
+                        data-cfemail="fc95929a93d29f9390938e90959ebc9b919d9590d29f9391"
+                        >[email&#160;protected]</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="c-o">Fax:</td>
+                    <td>+(12) 345 67890</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-7 offset-lg-1">
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdxPDFJXRK5BDwUZyTvePjNO1I2B2RI4euPDwSR2QIFIt7PzA/formResponse"
+              class="contact-form"
+            >
+              <div class="row">
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    name="entry.1299665400"
+                    required
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    name="entry.354839037"
+                    required
+                  />
+                </div>
+                <div class="col-lg-12">
+                  <textarea
+                    placeholder="Your Message"
+                    name="entry.1434634348"
+                    required
+                  ></textarea>
+                  <a target="_blank">
+                    <button type="submit">Submit Now</button>
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0606825994123!2d-72.8735845851828!3d40.760690042573295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e85b24c9274c91%3A0xf310d41b791bcb71!2sWilliam%20Floyd%20Pkwy%2C%20Mastic%20Beach%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1578582744646!5m2!1sen!2sbd"
+            height="470"
+            style="border: 0"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-text">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="ft-about">
+                <div class="logo">
+                  <a href="#">
+                    <img
+                      src="./img/logo.ong.png"
+                      alt=""
+                      style="height: 14rem; border-radius: 20%"
+                      data-pagespeed-url-hash="3280684767"
+                      onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+                    />
+                  </a>
+                </div>
+                <p>
+                  We inspire and reach thousands of Customers<br />
+                  across 10 local websites
+                </p>
+                <div class="fa-social">
+                  <a
+                    href="https://www.facebook.com/bookavenuepk-111106204963196/"
+                    target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/bookavenue.pk/"
+                    target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1">
+              <div class="ft-contact">
+                <h6>Contact Us</h6>
+                <ul>
+                  <li>0336-3244500</li>
+                  <li>
+                    <a
+                      href="#"
+                      class="__cf_email__"
+                      data-cfemail="bad3d4dcd594d9d5d6d5c8d6d3d8faddd7dbd3d694d9d5d7"
+                      >Bookavenuepk@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    Say good-bye to Paper work and scams book your function
+                    venue on line with few clicks
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-option">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <ul>
+                <li><a href="./contact.html">Contact</a></li>
+                <li>
+                  <a href="" onclick="alert('Term of use coming soon');"
+                    >Terms of use</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="co-text">
+                <p>
+                  Copyright &copy;
+                  <script
+                    data-cfasync="false"
+                    src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+                  ></script>
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved by
+                  <a href="" target="_blank">Captain</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js+jquery.magnific-popup.min.js+jquery.nice-select.min.js.pagespeed.jc.-2SQRuiO_z.js"></script>
+    <script>
+      eval(mod_pagespeed_rmWKRkYI4O);
+    </script>
+    <script>
+      eval(mod_pagespeed_VYn8JtcKO1);
+    </script>
+    <script>
+      eval(mod_pagespeed_FPGo1xFoB0);
+    </script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js+owl.carousel.min.js.pagespeed.jc.sNkZdAlR_s.js"></script>
+    <script>
+      eval(mod_pagespeed_syYlbZp0KE);
+    </script>
+    <script>
+      eval(mod_pagespeed_KQ29PzGXBT);
+    </script>
+    <script src="js/main.js"></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"713f80576c476b38","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
