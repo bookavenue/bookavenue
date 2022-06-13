@@ -256,18 +256,24 @@
           <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
             <div class="booking-form">
               <h3>Booking Your Venue</h3>
-              <form action="#">
+              <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdMtUGuStG14ciytw2Oyua97Znv_oxtypbqP5_TU1sMMNZEQA/formResponse"
+              >
+                <div class="check-date">
+                  <label for="Email">Email:</label>
+                  <input type="Email" name="entry.1470056435" />
+                </div>
                 <div class="check-date">
                   <label for="date-in">Date:</label>
-                  <input type="date" />
+                  <input type="date" name="entry.1695077552" />
                 </div>
                 <div class="check-date">
                   <label for="date-out">Time:</label>
-                  <input type="time" />
+                  <input type="time" name="entry.1283074152" />
                 </div>
                 <div class="select-option">
                   <label for="guest">Location:</label>
-                  <select id="guest">
+                  <select id="guest" name="entry.1880016674">
                     <option value="">--select--</option>
                     <option value="">Rawalpindi</option>
                     <option value="">Islamabad</option>
@@ -275,7 +281,7 @@
                 </div>
                 <div class="select-option">
                   <label for="room">Venue:</label>
-                  <select id="room">
+                  <select id="room" name="entry.1627537997">
                     <option value="">--select--</option>
                     <option value="">Marquee</option>
                     <option value="">Farmhouse</option>
@@ -285,9 +291,10 @@
                 </div>
                 <button
                   type="submit"
+                  target="blank"
                   onclick="alert('Congrats, Venue is Available!')"
                 >
-                  Check Availability
+                  <a target="_blank">Check Availability</a>
                 </button>
               </form>
             </div>
@@ -735,7 +742,11 @@
                     document.write(new Date().getFullYear());
                   </script>
                   All rights reserved by
-                  <a href="" target="_blank">Captain</a>
+                  <a
+                    href="https://www.linkedin.com/in/abdul-waheed781"
+                    target="_blank"
+                    >Captain</a
+                  >
                 </p>
               </div>
             </div>
